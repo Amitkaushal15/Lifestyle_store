@@ -11,31 +11,51 @@ and open the template in the editor.
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" \>
+    <!--Font Awesome api-->
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
-    <div class="header">
-        <div class="innerheader">
-            <div class="logo">
-                <a href="#">Lifestyle Store</a>
+    <header>
+        <div class=" navbar navbar-inverse navbar-fixed-top">
+            <div class="header">
+                <div class="innerheader">
+                    <div class="logo">
+                        <a href="index.html">Lifestyle Store</a>
+                    </div>
+                    <div class=" header-link ">
+                        <i class="fas fa-user"></i>
+                        <a href="Login.html">Log In</a>
+                    </div>
+                    <div class=" header-link ">
+                        <a href="signup.html">Sign Up</a>
+                    </div>
+
+                </div>
             </div>
-            <div class=" header-link ">
-                <a href="Login.html">Sign up</a></div>
-            <div class="header-link">
-                <a href="Login.html">Login</a></div>
         </div>
-    </div>
+    </header>
 
     <div class="content">
-        <div class="banner-image">
-            <div class="inner-bannerimage">
+        <div id="banner-image">
+            <div class="inner-bannerimage container">
                 <center>
-                    <div class="banner_content">
+                    <div id="banner_content">
                         <h1>We sell lifestyle</h1>
                         <p>Flat 40% OFF on premium brands </p>
-                        <a href="#" class="button">Shop Now</a>
+                        <a href="product.html" class="btn btn-danger btn-lg active">Shop Now</a>
                 </center>
             </div>
         </div>
@@ -70,17 +90,15 @@ and open the template in the editor.
             </a>
         </div>
     </div>
-
-    <div class="container">
-        <div class="footer">
-            <center>
-                <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
-            </center>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <center>
+                    <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+                </center>
+            </div>
         </div>
-    </div>
-
-
-
+    </footer>
 
 </body>
 

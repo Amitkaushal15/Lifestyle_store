@@ -28,6 +28,9 @@ a{
      font-size: 20px;
      font-weight: bold;
 }
+.logo a{
+      text-decoration: none;
+}
 
 .header-link {
     float:right;
@@ -37,17 +40,21 @@ a{
     font-size:16px;   
     font-weight: bold; 
 }
+.header-link a{
+      text-decoration: none;
+    }
 
 .content{
      min-height: 600px; 
 }
 
-.banner-image{
+#banner-image{
       padding-bottom: 50px;
+      padding-top: 75px;
       margin-bottom: 20px; 
       text-align: center; 
       color: #f8f8f8;
-      background: url(image/intro-bg_1.jpg) no-repeat center;
+      background: url(image/intro-bg_1.jpg) no-repeat center center;
       background-size: cover; 
 }
 
@@ -57,13 +64,14 @@ a{
       margin:auto; 
 }
 
-.banner_content{
+#banner_content{
    
       position: relative;
       padding-top: 6%; 
       padding-bottom: 6%;
-      overflow:hidden; 
+      overflow: hidden;
       margin-bottom: 12%; 
+      margin-bottom: 12%;
       background-color: rgba(0, 0, 0, 0.7);
       max-width: 660px;
 }
@@ -110,9 +118,22 @@ a{
       text-align: center; 
 }
 
-.footer{
-      background-color: #000;
-      color:#fff;
-      font-size:14px; 
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
-     
+.cart-section{
+      margin-top: 200px;
+      display: block;
+      width: 500px;
+      margin-right: auto;
+      margin-left: auto;
+}
+
+.cart-section li{
+      margin-bottom: 30px;
+}
