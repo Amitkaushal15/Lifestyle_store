@@ -126,4 +126,14 @@ footer{
     width: 100%;
     position: fixed;
 }
-     
+.cart-section{
+      margin-top: 200px;
+      display: block;
+      width: 500px;
+      margin-right: auto;
+      margin-left: auto;
+}
+
+.cart-section li{
+      margin-bottom: 30px;
+}
