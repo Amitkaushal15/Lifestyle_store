@@ -1,5 +1,8 @@
 
+body{
+    background-color: rgba(0, 0, 0, 0.809);
 
+}
 section{
     margin-top: 100px;
 }
@@ -25,6 +28,7 @@ section .title-box{
     letter-spacing: 0.004em;
     line-height: 40px;
     font-weight: 800;
+    color: #286090;
 }
 .col{
     margin-bottom: 10px;
