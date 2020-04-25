@@ -64,40 +64,7 @@ a{
     background-color: transparent;
     color:#ededed; 
 } 
-.header{
-     background-color:#000;
-     color:#fff; 
-     border-color: #080808; 
-     min-height: 50px;   
-     border: 1px solid transparent; 
-}
-.innerheader {
-    width:80%;
-    margin:auto;  
-}
 
-.logo{
-  float: left;
-  height: 50px;
-  padding: 15px;
-  font-size: 20px;
-  font-weight: bold;
-}
-.logo a{
-  text-decoration: none;
-}
-
-.header-link {
-    float:right;
-    font-size:14px;
-    height: 50px; 
-    padding: 15px 15px;
-    font-size:16px;   
-    font-weight: bold; 
-}
-.header-link a{
-  text-decoration: none;
-}
 .panel-footer p{
   color: black;
 }
